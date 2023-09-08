@@ -1,21 +1,21 @@
 @extends('layout.master')
 
 @section('judul')
-Tambah cast
+Tambah Cast
 @endsection
 
 @section('content')
 <form method="post" action="/cast">
     @csrf
     <div class="form-group">
-        <label>Nama</label>
+        <label>Film</label>
         <input type="text" name="nama" value="" class="form-control">
     </div>
     @error('nama')
         <div class="alert alert-denger">{{$message}}</div>
     @enderror
     <div class="form-group">
-        <label>Umur</label>
+        <label>Cast</label>
         <input type="text" name="umur" value="" class="form-control">
     </div>
     @error('umur')
@@ -23,7 +23,7 @@ Tambah cast
     @enderror
 
     <div class="form-group">
-        <label>Bio</label>
+        <label>Nama</label>
         <textarea class="form-control" name="bio"> </textarea>
     </div>
     @error('bio')

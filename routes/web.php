@@ -55,5 +55,3 @@ Route::post('/film', [FilmController::class,'store']);
 Route::get('/film/{film_id}/edit', [FilmController::class,'edit']);
 Route::put('/film/{film_id}', [FilmController::class,'update']);
 Route::delete('/film/{film_id}', [FilmController::class,'destroy']);
-
-//CRUD PERAN

@@ -56,18 +56,7 @@
                   <li class="nav-item">
                       <a href="/cast" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Cast</p>
-                      </a>
-                     </a>
-                    <i class="right fas fa-angle-left"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/forminput" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p> PERAN </p>
-                        </a>
+                          <p>Peran</p>   
                   </li>
               </ul>
           </li>
